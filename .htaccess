@@ -1,0 +1,4 @@
+AuthType Basic  
+AuthName "restricted area"  
+AuthUserFile /var/www/phoenix/.htpasswd  
+require valid-user
